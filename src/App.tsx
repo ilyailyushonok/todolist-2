@@ -8,11 +8,13 @@ export type tasksType = {
     isDone: boolean
     text: string
 }
+
 type todolistType = {
     id: string
     title: string
     filter: string
 }
+
 type tasksStateType = { [todolistId: string]: tasksType[] }
 
 export type filteredtasksType = "all" | "active" | "completed"
