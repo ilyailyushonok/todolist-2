@@ -24,7 +24,9 @@ export const ItemInput = ({callback}: ItemInputProps) => {
 
 
     const onKeyPressHandler = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === "Enter") {submitHandler()}
+        if (e.key === "Enter") {
+            submitHandler()
+        }
     }
     return (
         <div style={{display: 'flex', gap: '10px'}}>
