@@ -14,7 +14,7 @@ type todolistType = {
     title: string
     filter: string
 }
-//1234
+//12345
 type tasksStateType = { [todolistId: string]: tasksType[] }
 
 export type filteredtasksType = "all" | "active" | "completed"
